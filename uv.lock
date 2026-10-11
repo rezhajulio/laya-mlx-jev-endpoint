@@ -215,7 +215,7 @@ wheels = [
 ]
 
 [[package]]
-name = "laya-mlx-system-one"
+name = "laya-mlx-jev-endpoint"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
