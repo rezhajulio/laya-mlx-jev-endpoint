@@ -1,0 +1,18 @@
+[project]
+name = "laya-mlx-jev-endpoint"
+version = "0.1.0"
+description = "System-1 decision HTTP endpoint mimicking JEV backed by laya-mlx"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Rezha Julio", email = "contact@rezhajulio.id" }
+]
+requires-python = ">=3.11"
+dependencies = ["fastapi", "uvicorn", "laya-mlx"]
+
+[dependency-groups]
+dev = ["pytest", "httpx"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
